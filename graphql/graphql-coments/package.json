@@ -1,0 +1,24 @@
+{
+  "name": "graphql-coments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "apollo-server-core": "^3.11.1",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "graphql-redis-subscriptions": "^2.5.0",
+    "ioredis": "^5.2.4",
+    "nanoid": "^4.0.0"
+  }
+}

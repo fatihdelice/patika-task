@@ -1,0 +1,129 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+.primary {
+  direction: initial;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.57143;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: initial;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(22, 119, 255);
+  box-shadow: rgba(5, 145, 255, 0.1) 0px 2px 0px;
+}
+
+.default {
+  direction: initial;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.57143;
+  color: rgba(0, 0, 0, 0.88);
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 0px;
+  border-color: rgb(217, 217, 217);
+}
+
+.dashed {
+  direction: initial;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.57143;
+  color: rgba(0, 0, 0, 0.88);
+  outline: none;
+  border-width: 1px;
+  border-image: initial;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 0px;
+  border-color: rgb(217, 217, 217);
+  border-style: dashed;
+}
+
+.text {
+  direction: initial;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.57143;
+  color: rgba(0, 0, 0, 0.88);
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 0px;
+  border-color: rgb(217, 217, 217);
+}

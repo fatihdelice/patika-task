@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h1.title {
+    color: red;
+}
+
+.menu {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.container{
+    padding: 0 25px;
+}
+
+.container h2 {
+    color: purple;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.container p {
+    color: #000;
+    margin: 20px 0;
+}
+
+.container h5 {
+    color: orange;
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+.container ul{
+    display: inline-block;
+}
+
+.about{
+    text-align: left;
+}
+
+.container ol{
+    display: inline-block;
+}
+
+span.price {
+    font-weight: bold;
+}

@@ -1,0 +1,1 @@
+![patikastore](./patikastore.png)

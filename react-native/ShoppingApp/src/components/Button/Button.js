@@ -1,0 +1,24 @@
+import { TouchableOpacity, Text, ActivityIndicator } from 'react-native'
+import React from 'react'
+import styles from './Button.style'
+
+const Input = ({ text, onPress, loading }) => {
+    return (
+        <TouchableOpacity
+            style={styles.container}
+            onPress={onPress}
+            disabled={loading}
+        >
+            {
+                loading ? (
+                    <ActivityIndicator color="#fff" />
+                ) : (
+                    <Text style={styles.title}>{text}</Text>
+                )
+            }
+
+        </TouchableOpacity>
+    )
+}
+
+export default Input

@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+  width: 740px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.header span {
+  font-size: .8rem;
+  margin-left: 15px;
+}
+
+.lang_btn{
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  outline: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.lang_btn * {
+  background: #ffffff;
+  border: 1px solid #8eb6d8;
+  color: #555;
+  cursor: pointer;
+}
+
+
+.words_box {
+  padding: 6px 12px 30px 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 145px;
+  overflow: hidden;
+  color: #1d4851;
+  font-family: Times New Roman, Times, serif;
+  font-size: 2.2em;
+  line-height: 1.6em;
+  background: #ffffff;
+  border: 1px solid #8eb6d8;
+  border-radius: 5px;
+}
+
+.text_input{
+  padding: 8px;
+  background: #A7C8E7;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.form_control {
+  border-top: 1px solid #575757;
+  height: 50px;
+  border-right: 1px solid #6b7a89;
+  border-bottom: 1px solid #70869b;
+  border-left: 1px solid #525a62;
+  font-size: 2em;
+  line-height: 1em;
+  color: #333;
+  display: block;
+  width: 70%;
+  vertical-align: middle;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  outline: none;
+}
+
+.timer {
+  width: 70px;
+  float: left;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.6em;
+  border-radius: 6px;
+  color: white;
+  background: #3c4d5c;
+}
+
+.reload_btn {
+  height: 50px;
+  padding: 7px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+  display: inline-block;
+  user-select: none;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.reload_btn:hover {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.word_area{
+  text-align: center!important;
+  height: 100%!important;
+  width: 100%!important;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.word {
+  font-size: 1.5rem!important;
+  padding-right: 0.5rem!important;
+  padding-left: 0.3rem!important;
+  padding-top: 0.3rem!important;
+  padding-bottom: 0.3rem!important;
+}
+
+.set {
+  background-color: #dddddd;
+}
+
+span {
+  word-break: keep-all;
+}
+
+p {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.score_table{
+  display: block;
+  padding: 0px;
+  width: 280px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px rgb(154 190 227 / 90%);
+  position: relative;
+  min-height: 1px;
+}
+
+.score_table h3 {
+  color: #fff;
+  background: -webkit-linear-gradient(top, #5e91b3 0%, #407191 100%);
+  font-size: 16px;
+  padding: 8px 15px;
+  margin: 0px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #333333;
+  border-radius: 3px 3px 0px 0px;
+  line-height: 1.1;
+}
+
+.table{
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.table>tbody>tr>td, .table>tfoot>tr>td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+td.name {
+  font-size: 16px;
+  padding-left: 20px;
+  width: 160px;
+}
+
+.table>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #f9f9f9;
+}
+
+td.value {
+  font-size: 16px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+td#wpm strong {
+  font-size: 46px;
+  color: #527a1e;
+  display: block;
+  margin-bottom: -9px;
+  margin-top: 3px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+td#wpm small {
+  color: #81888c;
+  font-size: 12px;
+}
+
+tr#correct .value {
+  color: green;
+}
+
+tr#wrong .value {
+  color: red;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.incorrect {
+  color: red!important;
+}

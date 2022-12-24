@@ -1,0 +1,7 @@
+![1_kodwork](./1_kodwork.jpg)
+![2_kodwork](./2_kodwork.jpg)
+![3_kodwork](./3_kodwork.jpg)
+![4_kodwork](./4_kodwork.jpg)
+![5_kodwork](./5_kodwork.jpg)
+![6_kodwork](./6_kodwork.jpg)
+![7_kodwork](./7_kodwork.jpg)
