@@ -1,4 +1,4 @@
-# MongoDB Cheat Sheet Documnetation
+# MongoDB Cheat Sheet Documentation
 
 ### Tüm Veri Tabanını Göster
 
